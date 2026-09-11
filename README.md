@@ -9,13 +9,13 @@ JavaScript – Game logic, DOM manipulation, and event handling</p>
 <h2> WHAT I LEAQRNED</h2>
 <p>While building this project, I practiced and learned several important JavaScript concepts:
 
-DOM Manipulation – Selecting and modifying HTML elements using JavaScript.
-Event Listeners – Handling user interactions such as button clicks.
-Arrays – Storing and managing the game sequence.
-Loops – Repeating operations and processing game sequences.
-Functions – Organizing the game logic into reusable blocks.
-Conditional Statements – Checking whether the player's input is correct.
-setTimeout() – Creating delays between different game actions.
-Randomization – Generating random colors for the game sequence.
-CSS Classes with JavaScript – Adding and removing classes dynamically to create animations and visual feedback.
+DOM Manipulation – Selecting and modifying HTML elements using JavaScript.<br>
+Event Listeners – Handling user interactions such as button clicks.<br>
+Arrays – Storing and managing the game sequence.<br>
+Loops – Repeating operations and processing game sequences.<br>
+Functions – Organizing the game logic into reusable blocks.<br>
+Conditional Statements – Checking whether the player's input is correct.<br>
+setTimeout() – Creating delays between different game actions.<br>
+Randomization – Generating random colors for the game sequence.<br>
+CSS Classes with JavaScript – Adding and removing classes dynamically to create animations and visual feedback.<br>
 Game State Management – Managing the current level, sequence, user input, and game-over state.</p>
