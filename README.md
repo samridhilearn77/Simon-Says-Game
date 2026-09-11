@@ -6,7 +6,7 @@
 HTML – Structure of the game
 CSS – Styling, animations, and visual effects
 JavaScript – Game logic, DOM manipulation, and event handling</p>
-<h2> WHAT I LEAQRNED</h2>
+<h2> WHAT I LEARNED</h2>
 <p>While building this project, I practiced and learned several important JavaScript concepts:
 
 DOM Manipulation – Selecting and modifying HTML elements using JavaScript.<br>
