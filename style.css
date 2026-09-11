@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin:0;
+    background-image: url("bg.jpeg");
+}
+.startscreen{
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:100px;
+}
+h1{
+     font-family: "Finger Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-size:80px;
+  margin-top: 50px;
+  color: white;
+    text-shadow:
+        0 0 5px red,
+        0 0 10px red,
+        0 0 20px red,
+        0 0 40px red;
+
+}
+.licontainer{
+    height:300px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:20px;
+    
+
+}
+.startbtn{
+     background: rgb(19, 186, 19);
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px 2px;
+    padding: 15px 35px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Finger Paint", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+.playground{
+     
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:none;
+}
+.btncontainer{
+       height: 500px;
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    
+  
+   
+
+}
+.btn{
+   height: 245px;
+    width: 245px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 20px;
+     box-shadow: 0px 0px 5px 2px;
+
+}
+/*.red{
+    background-color:   rgb(255, 179, 186);/*rgb(220, 28, 28);
+}
+.blue{
+    background-color: rgb(174, 198, 255);/*rgb(60, 60, 195);
+}
+.green{
+    background-color: rgb(178, 235, 186);/* rgb(19, 186, 19);;
+}
+.yellow{
+    background-color:rgb(255, 236, 153);/* rgb(241, 241, 86);
+}*/
+/*.red {
+    background-color: rgb(255, 160, 170);
+}
+
+.blue {
+    background-color: rgb(155, 190, 255);
+}
+
+.green {
+    background-color: rgb(155, 225, 170);
+}
+
+.yellow {
+    background-color: rgb(255, 225, 120);
+}*/
+.red {
+    background-color: rgb(255, 105, 120);
+}
+
+.blue {
+    background-color: rgb(100, 160, 245);
+}
+
+.green {
+    background-color: rgb(95, 205, 120);
+}
+
+.yellow {
+    background-color: rgb(255, 210, 75);
+}
+.scorebox{
+    height:50px;
+    width:80px;
+    background-color: rgb(183, 180, 180);
+    font-weight: 700;
+   padding-top: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    border:2px solid white;
+    margin-bottom: 10px;
+     box-shadow: 0px 0px 5px 2px;
+}
+.gameover{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     display:none;
+}
+.scoredis{
+    height:80px;
+    width:100px;
+    background-color: rgb(183, 180, 180);
+     font-weight: 700;
+   padding-top: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border:2px solid white;
+    margin-top:30px;
+    box-shadow: 0px 0px 5px 2px;
+}
+.container{
+        height:300px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:20px;
+}
+.endbtn{
+      background: rgb(29, 177, 227);
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 2px;
+    padding: 15px 35px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Finger Paint", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+h2{
+     font-family: "Finger Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:30px;
+}
+.flash{
+    background-color: white;
+}

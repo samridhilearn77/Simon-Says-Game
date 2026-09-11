@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon says game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--starting screen -->
+    <section class="startscreen">
+        <h1>SIMON SAYS</h1>
+        <BR>
+            <div class="licontainer">
+                <button class="startbtn" id="btn1">PLAY</button>
+                <button class="startbtn" id="btn2">HIGHSCORE</button>
+            </div>
+       
+    </section>
+    <!--- playground-->
+    <section class="playground">
+        <h1>SCORE</h1>
+        
+        <div class="scorebox">
+            0
+        </div>
+        <h2>Press any key to start</h2>
+        <br>
+        <div class="btncontainer">
+        <div class="btn red" id="red"></div>
+        <div class="btn blue" id="blue"></div>
+        <div class="btn green" id="green"></div>
+        <div class="btn yellow" id="yellow"></div>
+        </div>
+       
+    </section >
+    <!---gameover-->
+    <section class="gameover">
+        <h1>GAME OVER</h1>
+          <h2>YOUR SCORE</h2>
+    <div class="scoredis">
+        0
+    </div>
+    <div class="container">
+    <button class="endbtn btn1" id="try">TRY AGAIN</button>
+    <button class="endbtn btn2" id="end">ENDGAME</button>
+    </div>
+    </section>
+   
+    <script src="app.js"></script>
+    
+
+
+</body>
+</html>
